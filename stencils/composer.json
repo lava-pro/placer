@@ -1,0 +1,23 @@
+{
+    "name": "packages/:lc:package",
+    "description": ":uc:package :title",
+    "require": {
+        "php": ">=7.1.3",
+        "laravel/framework": "^5.8.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lava\\:uc:package\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lava\\:uc:package\\:uc:packageServiceProvider"
+            ],
+            "aliases": {
+                ":uc:package": "Lava\\:uc:package\\Facades\\:uc:package"
+            }
+        }
+    }
+}

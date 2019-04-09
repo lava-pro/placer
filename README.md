@@ -1,2 +1,2 @@
-# placer
+# Lava Placer
 Local Packages Generator
